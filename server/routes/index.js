@@ -1,7 +1,9 @@
 const user = require('./user')
+const team = require('./team')
 
 const routes = [
-  user
+  user,
+  team
 ]
 
 module.exports = {
